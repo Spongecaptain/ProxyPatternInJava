@@ -24,3 +24,7 @@ You may use shell script in this project to use AspectJ for generating proxyer c
 ## 3. What's More
 
 If you are Chinese or you don't mind read in Chinese, you also read my personal blog to help for you understanding Proxy Pattern in Java, including a discussion of this project.
+
+- https://spongecaptain.cool/post/java/proxypattern/
+- https://spongecaptain.cool/post/java/cglibproxy/
+- https://spongecaptain.cool/post/java/aspectjproxy/
