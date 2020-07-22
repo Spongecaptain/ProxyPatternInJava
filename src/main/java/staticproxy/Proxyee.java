@@ -1,12 +1,13 @@
-package jdkproxy;
+package staticproxy;
 
 /**
  * @author SpongeCaptain
- * @date 2020/7/16 22:07
+ * @date 2020/7/20 09:20
  *
- * Here we use JDK Proxy to implement proxy pattern.
+ * Here we use static proxy pattern to implement static proxy.
  */
-public class Proxyee implements Foo {
+public class Proxyee implements Foo{
+
     @Override
     public String bar(String str,int i) {
         System.out.println(str+i);
