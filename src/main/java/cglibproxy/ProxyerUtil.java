@@ -11,6 +11,10 @@ import java.io.IOException;
 import java.lang.reflect.Method;
 
 /**
+ * 使用 CGLIB 动态代理的步骤是：
+ * 1. 实现 net.sf.cglib.proxy.MethodInterceptor 接口，实现其 intercept() 方法，此方法内的所有执行逻辑实际上对应于代理方法
+ * 2. 一般会提供一个工厂方法，工厂方法内部利用 Enhancer 来返回一个代理类实例
+ * 3. Enhancer 负责接收：被代理类 Class、代理方法 MethodInterceptor 实例，来创建一个被代理对象
  * @author SpongeCaptain
  * @date 2020/7/17 14:24
  */
